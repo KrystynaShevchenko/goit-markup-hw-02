@@ -8,19 +8,42 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
 /* =Top line= */
 
 .header {
 }
-.header-havigation {
+.header-navigation {
 }
 .header-logo {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo-span {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .header-menu-list {
 }
 .header-menu-item {
 }
 .header-menu-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
 .address-list {
 }
@@ -29,4 +52,88 @@ ul {
 .addres-menu-item {
 }
 .address-menu-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+/* =First Section= */
+
+.hero {
+  background-color: var(--NAVY-BLUE, #2e2f42);
+}
+.hero-title {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 0.02em;
+}
+.hero-btn {
+}
+color: var(--WHITE, #fff);
+font-family: inherit;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+cursor: pointer;
+
+/* =Second section= */
+.features {
+}
+.features-title {
+}
+.features-menu-list {
+}
+.features-menu-item {
+}
+.features-menu-subtitle {
+}
+.features-menu-text {
+}
+
+/* =Third section= */
+
+.team {
+}
+.team-title {
+}
+.team-menu-list {
+}
+.team-menu-item {
+}
+.team-menu-img {
+}
+.team-menu-subtitle {
+}
+.team-menu-text {
+}
+
+/* =Fourth section= */
+
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-menu-list {
+}
+.portfolio-menu-item {
+}
+.portfolio-menu-img {
+}
+.portfolio-menu-subtitle {
+}
+.portfolio-menu-text {
+}
+
+/* =Footer= */
+
+.footer {
+}
+.footer-logo {
+}
+.footer-text {
 }
