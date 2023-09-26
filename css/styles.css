@@ -12,6 +12,7 @@ a {
   text-decoration: none;
 }
 
+/*
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -24,6 +25,7 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+*/
 
 /* =Top line= */
 
@@ -34,7 +36,7 @@ a {
 }
 
 .header-logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
@@ -45,12 +47,12 @@ a {
 }
 
 .header-logo-span {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
