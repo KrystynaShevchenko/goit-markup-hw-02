@@ -38,7 +38,6 @@ a {
 .header-logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17; /* 116.667% */
@@ -232,7 +231,6 @@ a {
 .footer-logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17; /* 116.667% */
